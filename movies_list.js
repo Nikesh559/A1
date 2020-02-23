@@ -33,7 +33,7 @@ new Vue({
             Year:this.yr,
             imdbID:this.imdbID
         });
-        this.name='';
+        this.title='';
         this.poster='';
         this.yr='';
         this.imdbID='';
