@@ -22,7 +22,7 @@ new Vue({
     msg:[]
   },
  created(){
-    axios.get("http://www.omdbapi.com/?s=harry+potter&apikey=e0620bd4").then(res => this.msg =res.data.Search);
+    axios.get("https://www.omdbapi.com/?s=harry+potter&apikey=e0620bd4").then(res => this.msg =res.data.Search);
   },
   methods:{
        add(){
